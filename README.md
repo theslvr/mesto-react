@@ -22,4 +22,4 @@
 
 **Результат**
 
-* [Ссылка страницу](https://theslvr.github.io/mesto/)
+* [Ссылка страницу](https://theslvr.github.io/mesto-react/)

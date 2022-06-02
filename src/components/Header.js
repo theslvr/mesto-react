@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header className="header">
-      <div className="logo logo_place_header"></div>
+      <div className="logo logo_place_header" />
     </header>
   )
 }

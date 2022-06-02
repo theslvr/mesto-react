@@ -12,7 +12,7 @@ const ImagePopup = ({ card, onClose, isOpen }) => {
 
     document.addEventListener('keydown', handleEsc)
     return () => document.removeEventListener('keydown', handleEsc)
-  })
+  }, [isOpen])
 
   return (
     <div className={`popup popup_photo ${card._id && 'popup_opened'}`}>
